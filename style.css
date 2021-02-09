@@ -1,0 +1,121 @@
+.inputarea {
+    min-height: 24px;
+    background-color: #383838;
+}
+
+.monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
+    background-color: #383838;
+}
+
+.margin-view-overlays {
+    background: #383838;
+}
+
+html[theme=dark] {
+    --colab-highlighted-surface-color: #2f2f2f;
+    --colab-icon-color: #226c54;
+    --colab-primary-text-color: #0ac589;
+    --colab-editor-focus-color: #226c54;
+    --colab-toolbar-button-color: #0ac589;
+    --colab-title-color: #0ac589;
+}
+
+.main-content[elevation="2"] {
+    box-shadow: none !important;
+}
+
+
+.code.focused .cell-gutter {
+    border-radius: 8px;
+}
+
+.editor .monaco-editor .line-numbers, .editor .monaco-editor .current-line~.line-numbers, .debugger-editor .monaco-editor .line-numbers, .debugger-editor .monaco-editor .current-line~.line-numbers {
+    color: #1e4e3f;
+}
+
+.output-iframe-container {
+    border: 2px solid #226c54;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track  {
+    background: #2f2f2f;
+    border-radius: 6px;    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #252525;
+    border-radius: 6px;
+    
+}
+
+input#doc-name {
+    background: #2f2f2f;
+    border-radius: 10px;
+    text-shadow: 3px 0px 7px #0cd795;
+}
+
+colab-last-saved-indicator {
+    text-decoration: none !important;
+    color: #d27061;
+    border: 2px solid #903525;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+/* Here's the other variables you can play with */
+/*
+
+html[theme=dark] {
+    --colab-anchor-color: var(--paper-blue-400);
+    --code-cell-background: #1e1e1e;
+    --colab-border-color: var(--paper-grey-900);
+    --colab-bold-border-color: #eee;
+    --colab-divider-color: var(--paper-grey-700);
+    --colab-debugger-line-color: var(--paper-red-900);
+    --colab-editor-focus-color: #282828;
+    --colab-highlighted-surface-color: #525252;
+    --colab-icon-color: var(--paper-grey-100);
+    --colab-input-placeholder-color: var(--paper-grey-500);
+    --colab-primary-surface-color: #383838;
+    --colab-primary-text-color: #d5d5d5;
+    --colab-secondary-text-color: #f7f7f7;
+    --colab-tertiary-text-color: var(--paper-grey-500);
+    --colab-secondary-surface-color: #454545;
+    --colab-scrollbar-color: rgba(255, 255, 255, 0.2);
+    --colab-gutter-icon-color: var(--paper-grey-700);
+    --colab-active-execution-icon-color: var(--colab-icon-color);
+    --colab-code-match-highlight: var(--paper-grey-800);
+    --colab-code-match-selected-highlight: var(--paper-blue-grey-800);
+    --colab-codemirror-function-color: #a883ff;
+    --colab-error-icon-color: var(--paper-red-400);
+    --colab-codemirror-active-line-background-color: #373831;
+    --colab-title-color: #fff;
+    --colab-toolbar-button-color: var(--paper-grey-200);
+    --colab-form-field-underline-color: var(--paper-grey-400);
+    --colab-left-pane-icon-highlight-background: #63472b;
+    --colab-left-pane-section-highlight: #ffd836;
+    --ansi-black: rgb(127, 127, 127);
+    --ansi-red: rgb(255, 122, 136);
+    --ansi-green: rgb(87, 187, 138);
+    --ansi-yellow: rgb(255, 255, 102);
+    --ansi-blue: rgb(130, 177, 255);
+    --ansi-magenta: rgb(205, 0, 205);
+    --ansi-cyan: rgb(153, 187, 215);
+    --ansi-gray: rgb(229, 229, 229);
+    --ansi-bright-green: rgb(0, 255, 0);
+    --error-color: var(--paper-deep-orange-a100);
+    --primary-color: var(--colab-anchor-color);
+    --hairline-button-primary: var(--primary-color);
+    --hairline-button-secondary: var(--google-blue-300);
+    --hairline-button-overlay-hovered: #42a5f50a;
+    --hairline-button-disabled-label: #9e9e9e80;
+    --hairline-button-disabled-container: #9e9e9e80;
+}
+
+*/
