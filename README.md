@@ -18,7 +18,7 @@ install Stylus from the Chrome web store; It's free
 # Step 2
 **copy the CSS code and put them in Stylus** 
 
-Put the css code in Stylus from the **style.css** file.
+Put the css code in Stylus from the [**style.css**](https://github.com/niamulhasan/Google-colab-theme-Ninja/blob/main/style.css) file.
 **Note** : Be sure that you are applying the style to the domain [https://colab.research.google.com](https://colab.research.google.com/) only.
 
 
